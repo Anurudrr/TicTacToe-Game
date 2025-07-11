@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+  
+    background-color: #548687;
+    text-align: center;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+
+.container{
+    height: 70vh;
+        display: flex;
+   
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color:pink;
+ 
+
+}
+#resetbtn{
+ padding: 1rem;
+ font-size: 1.25rem;
+ background-color:#ff9933;
+ color : #fff;
+ border-radius: 1rem;
+ border: 1px solid red;
+}
+
+#newbtn{
+    padding: 1rem;
+ font-size: 1.25rem;
+ background-color: #191913;
+ color : #fff;
+ border-radius: 1rem;
+ border: none;
+ 
+}
+#msg {
+    color: brown;
+    font-size: 5vmin;
+}
+.message{
+    height: 100vmin;
+display: flex;
+
+justify-content: center;
+align-items: center;
+flex-direction: column ;
+gap: 4rem;
+}
+.hide{
+    display: none;
+}
+.o-style {
+  color: #C71585; 
+  font-weight: bold;
+  font-size: 5rem;
+}
+.x-style {
+  color: #800000; /* Maroon */
+  font-weight: bold;
+  font-size: 5rem;
+}
+/* ★ Style used **only** for “It’s a draw!” */
+
+/* Draw message: pink box, white text, light‑yellow border, dark‑yellow glow */
+#msg.draw {
+    background: #ff69b4;           /* pink background */
+    color: #ffffff;                /* white text */
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: inline-block;
+    font-weight: bold;
+
+    border: 4px solid #fff7a1;     /* light yellow border */
+    box-shadow: 0 0 20px #ffb300;  /* darker yellow glow */
+}
+
+
+
